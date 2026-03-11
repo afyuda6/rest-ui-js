@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #999;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+    height: 50px;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+td {
+    font-size: 14px;
+    color: #555;
+    max-width: 100%;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 60%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 30%;
+}
+
+td .name-cell input {
+    width: 60%;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.name-cell input {
+    width: 60%;
+}
+
+.actions-cell button {
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.actions-cell button:last-child {
+    margin-right: 0;
+}
+
+.actions-cell button:hover {
+    background-color: #ccc;
+}
+
+form, div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+}

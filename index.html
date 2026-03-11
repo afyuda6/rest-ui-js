@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/47512456?v=4" type="image/x-icon">
+</head>
+<body>
+    <h1>REST UI</h1>
+
+    <div>
+        <label for="api-selector">Choose API Host:</label>
+        <select id="api-selector">
+            <option value="" selected>Select an API</option>
+            <option value="https://afyuda6-rest.netlify.app/api/cpp/users">REST API C++</option>
+            <option value="https://afyuda6-rest.netlify.app/api/rb/users">REST API Ruby</option>
+            <option value="https://afyuda6-rest.netlify.app/api/cs/users">REST API C#</option>
+            <option value="https://afyuda6-rest.netlify.app/api/php/users">REST API PHP</option>
+            <option value="https://afyuda6-rest.netlify.app/api/go/users">REST API Go</option>
+            <option value="https://afyuda6-rest.netlify.app/api/java/users">REST API Java</option>
+            <option value="https://afyuda6-rest.netlify.app/api/py/users">REST API Python</option>
+            <option value="https://afyuda6-rest.netlify.app/api/rs/users">REST API Rust</option>
+        </select>
+    </div>
+
+    <form id="create-form">
+        <input type="text" id="name" placeholder="Enter Name" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <table id="users-list">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
